@@ -19,12 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DynamicRTSPServer.hh" />
-    <ClInclude Include="version.hh" />
+    <ClInclude Include="MyRTSPServer.hh" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DynamicRTSPServer.cpp" />
-    <ClCompile Include="live555MediaServer.cpp" />
+    <ClCompile Include="MyRTSPServer.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -32,6 +31,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>mediaServe</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>MyMediaServe</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

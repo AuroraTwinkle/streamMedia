@@ -15,19 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DynamicRTSPServer.hh">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="version.hh">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="MyRTSPServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DynamicRTSPServer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="live555MediaServer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="MyRTSPServer.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
